@@ -1,0 +1,11 @@
+HTML tags used:
+header, nav, main, section, article, h1, h2, h3, p, a, div, span, pre, code, ul, li, form, label, input, textarea, button, footer
+
+CSS properties used:
+margin, padding, font-family, background-color, color, font-size, font-weight, letter-spacing, line-height, max-width, display, flex-wrap, gap, border, border-radius, box-shadow, text-align, transition, transform, position, top, z-index
+
+Bootstrap:
+I used Bootstrap's responsive navbar, containers, grid system, buttons, badges, and form controls to make the website professional and responsive.
+
+JavaScript:
+I used JavaScript on the contact page to validate the form and open the user's email app with a pre-filled message.
