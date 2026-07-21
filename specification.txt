@@ -8,4 +8,7 @@ Bootstrap:
 I used Bootstrap's responsive navbar, containers, grid system, buttons, badges, and form controls to make the website professional and responsive.
 
 JavaScript:
-I used JavaScript on the contact page to validate the form and open the user's email app with a pre-filled message.
+I used JavaScript on the contact page to copy my email address to the user's clipboard.
+
+Netlify Forms:
+I used Netlify Forms on contact.html by adding name="contact", method="POST", data-netlify="true", and a hidden form-name input.

@@ -184,28 +184,6 @@ a:hover {
     text-decoration: none;
 }
 
-.cta-panel {
-    align-items: center;
-    background-color: #111827;
-    border-radius: 26px;
-    color: #ffffff;
-    display: flex;
-    justify-content: space-between;
-    gap: 24px;
-    padding: 42px;
-}
-
-.cta-panel .eyebrow {
-    color: #d1d5db;
-}
-
-.cta-panel h2 {
-    font-size: 30px;
-    font-weight: 700;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-}
-
 .page-section {
     padding-bottom: 72px;
     padding-top: 72px;
@@ -295,14 +273,6 @@ a:hover {
     text-decoration: none;
 }
 
-.privacy-note {
-    background-color: #f3f4f6;
-    border-radius: 14px;
-    font-size: 14px !important;
-    margin-top: 22px;
-    padding: 16px;
-}
-
 .form-control {
     border-radius: 14px;
     min-height: 48px;
@@ -316,6 +286,17 @@ textarea.form-control {
     color: #4b5563;
     font-weight: 600;
     margin-top: 16px;
+}
+
+.hidden {
+    display: none;
+}
+
+.success-title {
+    color: #111827;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: -1px;
 }
 
 .footer {
@@ -362,7 +343,6 @@ textarea.form-control {
         justify-content: center;
     }
 
-    .cta-panel,
     .footer-content {
         align-items: flex-start;
         flex-direction: column;
