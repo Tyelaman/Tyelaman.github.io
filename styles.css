@@ -97,16 +97,16 @@ a:hover {
 }
 
 .terminal-card {
-    background-color: #111827;
+    background-color: #1f2937;
     border-radius: 22px;
-    box-shadow: 0 24px 70px rgba(17, 24, 39, 0.25);
+    box-shadow: 0 24px 70px rgba(17, 24, 39, 0.18);
     color: #e5e7eb;
     overflow: hidden;
 }
 
 .terminal-bar {
     align-items: center;
-    background-color: #030712;
+    background-color: #111827;
     display: flex;
     gap: 8px;
     padding: 16px 20px;
@@ -119,6 +119,11 @@ a:hover {
     height: 12px;
     opacity: 0.75;
     width: 12px;
+}
+
+.terminal-card pre,
+.terminal-card code {
+    color: #e5e7eb;
 }
 
 .terminal-card pre {
