@@ -361,3 +361,23 @@ textarea.form-control {
         margin-left: 0;
     }
 }
+
+.contact-page-card h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.contact-page-card p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.contact-page-card a {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact-page-card a:hover {
+    text-decoration: underline;
+}
