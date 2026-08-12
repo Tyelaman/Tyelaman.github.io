@@ -1,101 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-        <link href="styles.css" rel="stylesheet">
-        <title>Temirlan Yelaman | Software Engineering Portfolio</title>
-    </head>
-    <body>
-        <header class="site-header">
-            <nav class="navbar navbar-expand-md navbar-light container">
-                <a class="navbar-brand" href="index.html">Temirlan Yelaman</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarMenu">
-                    <div class="navbar-nav ml-auto">
-                        <a class="nav-link active" href="index.html">Home</a>
-<a class="nav-link " href="about.html">About</a>
-<a class="nav-link " href="portfolio.html">Projects</a>
-<a class="nav-link " href="contact.html">Contact</a>
-<a class="nav-link " href="temirlan_yelaman_resume_2026.pdf">Resume</a>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <section class="hero-section">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-7">
-                            <p class="eyebrow">Purdue Computer Science Student</p>
-                            <h1>Backend and full-stack developer in progress.</h1>
-                            <p class="hero-text">
-                                I am Temirlan Yelaman, a Computer Science student at Purdue University.
-                                I build practical projects using Java, C/C++, Python, SQL, JavaScript,
-                                HTML/CSS, Flask, SQLite, Git, and Linux.
-                            </p>
-                            <div class="hero-actions">
-                                <a href="portfolio.html" class="btn btn-dark btn-lg">View Projects</a>
-                                <a href="contact.html" class="btn btn-outline-dark btn-lg">Contact Me</a>
-                                <a href="temirlan_yelaman_resume_2026.pdf" class="btn btn-link btn-lg">Resume</a>
-                            </div>
-                            <div class="social-links mt-4">
-                                <a href="https://github.com/Tyelaman" target="_blank" rel="noopener">GitHub</a>
-                                <a href="https://www.linkedin.com/in/temirlan-yelaman/" target="_blank" rel="noopener">LinkedIn</a>
-                                <a href="mailto:tyelama@purdue.edu">Email</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-5 mt-5 mt-lg-0">
-                            <div class="terminal-card">
-                                <div class="terminal-bar"><span></span><span></span><span></span></div>
-                                <pre><code>$ whoami
-Temirlan Yelaman
-
-$ focus
-Backend Development
-Full-Stack Projects
-Systems Programming
-
-$ currently_building
-ForgeShell + InternTrack</code></pre>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="container section-spacing">
-                <div class="section-heading text-center">
-                    <p class="eyebrow">Featured Work</p>
-                    <h2>Projects that show how I build.</h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 mb-4"><article class="feature-card"><span class="badge badge-dark">Flask</span><h3>InternTrack</h3><p>A web app for tracking internship applications, statuses, notes, and recruiting progress.</p><a href="https://github.com/Tyelaman/interntrack" target="_blank" rel="noopener">View repository</a></article></div>
-                    <div class="col-md-4 mb-4"><article class="feature-card"><span class="badge badge-dark">C</span><h3>ForgeShell</h3><p>A custom shell project focused on systems programming, command parsing, and terminal interaction.</p><a href="https://github.com/Tyelaman/forgeshell" target="_blank" rel="noopener">View repository</a></article></div>
-                    <div class="col-md-4 mb-4"><article class="feature-card"><span class="badge badge-dark">Java</span><h3>Online Marketplace</h3><p>A Java team project that strengthened object-oriented design, collaboration, and application structure.</p><a href="https://github.com/Tyelaman/CS-180-Team-Project" target="_blank" rel="noopener">View repository</a></article></div>
-                </div>
-            </section>
-        </main>
-        <footer class="footer">
-            <div class="container footer-content">
-                <p>© 2026 Temirlan Yelaman</p>
-                <p>
-                    <a href="mailto:tyelama@purdue.edu">tyelama@purdue.edu</a>
-                    <span>•</span>
-                    <a href="https://github.com/Tyelaman" target="_blank" rel="noopener">GitHub</a>
-                    <span>•</span>
-                    <a href="https://www.linkedin.com/in/temirlan-yelaman/" target="_blank" rel="noopener">LinkedIn</a>
-                </p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temirlan Yelaman is a Purdue Computer Science student building backend and full-stack software.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Temirlan Yelaman | Software Engineer</title>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav-shell" aria-label="Primary navigation">
+            <a class="brand" href="index.html"><span>TY</span>Temirlan Yelaman</a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open navigation"><span></span><span></span><span></span></button>
+            <div class="nav-menu" id="nav-menu">
+                <a class="active" aria-current="page" href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="portfolio.html">Projects</a>
+                <a href="contact.html">Contact</a>
+                <a class="nav-resume" href="temirlan_yelaman_resume_2026.pdf">Resume</a>
             </div>
-        </footer>
-        <script src="script.js"></script>
-    </body>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="shell hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span></span>Purdue Computer Science</p>
+                    <h1>Hi, I’m Temirlan.<br><em>I build useful software.</em></h1>
+                    <p class="hero-role">Aspiring backend &amp; full-stack software engineer</p>
+                    <p class="hero-intro">I turn practical ideas into reliable applications while sharpening my skills in backend systems, databases, and thoughtful product development.</p>
+                    <div class="button-row">
+                        <a class="button button-primary" href="portfolio.html">Explore my projects <span aria-hidden="true">→</span></a>
+                        <a class="button button-secondary" href="contact.html">Get in touch</a>
+                    </div>
+                    <div class="quick-links" aria-label="Social links">
+                        <a href="https://github.com/Tyelaman" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+                        <a href="https://www.linkedin.com/in/temirlan-yelaman/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+                        <a href="mailto:tyelama@purdue.edu">Email <span aria-hidden="true">↗</span></a>
+                    </div>
+                </div>
+                <aside class="profile-panel" aria-label="Developer profile">
+                    <div class="panel-topline"><span>developer-profile.json</span><span class="status"><i></i> Open to opportunities</span></div>
+                    <div class="code-profile">
+                        <p><span class="code-key">"name"</span>: <span class="code-value">"Temirlan Yelaman"</span>,</p>
+                        <p><span class="code-key">"location"</span>: <span class="code-value">"Purdue University"</span>,</p>
+                        <p><span class="code-key">"focus"</span>: [</p>
+                        <p class="indent"><span class="code-value">"Backend development"</span>,</p>
+                        <p class="indent"><span class="code-value">"Full-stack applications"</span>,</p>
+                        <p class="indent"><span class="code-value">"Systems programming"</span></p>
+                        <p>],</p>
+                        <p><span class="code-key">"building"</span>: <span class="code-value">"InternTrack + ForgeShell"</span></p>
+                    </div>
+                    <div class="panel-footer"><span>Java</span><span>C / C++</span><span>Python</span><span>SQL</span></div>
+                </aside>
+            </div>
+        </section>
+
+        <section class="shell section">
+            <div class="section-heading split-heading">
+                <div><p class="eyebrow dark"><span></span>Selected work</p><h2>Projects built to learn by doing.</h2></div>
+                <a class="text-link" href="portfolio.html">View all projects <span aria-hidden="true">→</span></a>
+            </div>
+            <div class="project-grid">
+                <article class="project-card"><div class="project-number">01</div><div class="project-tags"><span>Flask</span><span>SQLite</span><span>Full stack</span></div><h3>InternTrack</h3><p>An internship application tracker for organizing roles, statuses, notes, and recruiting progress in one focused workspace.</p><a href="https://github.com/Tyelaman/interntrack" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a></article>
+                <article class="project-card"><div class="project-number">02</div><div class="project-tags"><span>C</span><span>Linux</span><span>Systems</span></div><h3>ForgeShell</h3><p>A systems-focused project exploring command-line workflows, structured data, and practical software engineering tools.</p><a href="https://github.com/Tyelaman/F500-SWE-Internships" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a></article>
+                <article class="project-card"><div class="project-number">03</div><div class="project-tags"><span>Java</span><span>OOP</span><span>Team project</span></div><h3>Online Marketplace</h3><p>A collaborative Java application that applies object-oriented design to the flows of a functional online marketplace.</p><a href="https://github.com/Tyelaman/CS-180-Team-Project" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a></article>
+            </div>
+        </section>
+
+        <section class="shell callout">
+            <div><p class="eyebrow"><span></span>Let’s build something</p><h2>Interested in working together?</h2></div>
+            <a class="button button-light" href="mailto:tyelama@purdue.edu">tyelama@purdue.edu <span aria-hidden="true">→</span></a>
+        </section>
+    </main>
+
+    <footer class="footer"><div class="shell footer-inner"><p>© <span data-year>2026</span> Temirlan Yelaman</p><div><a href="https://github.com/Tyelaman" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/temirlan-yelaman/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="mailto:tyelama@purdue.edu">Email</a></div></div></footer>
+    <script src="script.js"></script>
+</body>
 </html>
